@@ -15,10 +15,10 @@ public class LoginSystem {
             } else if (choice.equals("2")) {
                 loginUser(scanner);
             } else if (choice.equals("3")) {
-                System.out.println("👋 Exiting... Bye!");
+                System.out.println("Exiting.");
                 break;
             } else {
-                System.out.println("❌ Invalid choice!");
+                System.out.println("Invalid choice!");
             }
         }
         scanner.close();
